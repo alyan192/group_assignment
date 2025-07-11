@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/06bcca22e8.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/contact.css">
+  <title>Contact Me</title>
+  <style>
+   
+</style>
+</head>
+<body>
+  <nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
+      <a href="price.html"><i class="fa-solid fa-briefcase"></i> Visit</a>
+      <a href="gallery.html"><i class="fa-regular fa-image"></i> Exhibits</a>
+      <a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+  </nav>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or inquiries for us, feel free to get in touch!</p>
+
+    <div class="contact-info">
+      <a href="tel:+60172282890"><i clas s="fa-solid fa-phone"></i> Call: +60172282890</a>
+      <a href="info@museumofillusions.my"><i class="fa-solid fa-envelope"></i> Email: info@museumofillusions.my</a>
+    </div>
+
+    <form action="submit_form.php" method="POST" class="contact-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+<footer>
+  <p>&copy; 2025 Museum of Illusion, All Rights Reserved.</p>
+</footer>
+</html>
